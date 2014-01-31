@@ -9,11 +9,17 @@ img {
 // override for the 'Home' navigation link
 .navbar-brand {
   font-size: inherit;
+  background-color: #CD853F;
+  padding-bottom: 0 auto;
   }
+
 
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
 // to make views framework-neutral
+
+
+
 .column {
   @extend .col-md-6;
   @extend .text-center;
@@ -30,16 +36,18 @@ img {
   @extend .btn-primary;
   @extend .btn-lg;
   }
+
 // apply styles to HTML elements
 // to make views framework-neutral
 main {
   @extend .container;
-  background-color: #eee;
+  background-color: #d1be94;
   padding-bottom: 80px;
   width: 100%;
-  margin-top: 51px; // accommodate the navbar
+  margin-top: 50px; // accommodate the navbar
   }
 section {
   @extend .row;
   margin-top: 20px;
   }
+

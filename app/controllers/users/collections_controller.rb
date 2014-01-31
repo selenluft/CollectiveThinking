@@ -1,6 +1,6 @@
 class Users::CollectionsController < ApplicationController
   before_action :set_users_collection, only: [:show, :edit, :update, :destroy]
-
+  
   # GET /users/collections
   # GET /users/collections.json
   def index
